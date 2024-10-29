@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width:100%;
+            height:auto;
+
+        }
+        .header .container .wrap{
+            display: flex;
+            margin: 0 20px;
+            align-items: center;
+        }
+        .header{
+            background-color: orange;
+        }
+        .header .container .wrap .logo{
+            border:3px solid black;
+            height:150px;
+            width:25%;
+        }
+        .header .container .wrap .menu{
+            border:3px solid black;
+            width:55%;
+        }
+        .header .container .wrap .contact{
+            border:3px solid black;
+            width:20%;
+        }
+        .header .container .wrap .menu ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            align-items: center;
+        }
+        .header .container .wrap .menu ul li{
+            margin-left: 20px;
+        }
+        .header .container .wrap .contact{
+            text-align: center;
+            color:white;
+            background-color: black;
+            border-radius: 5px;
+            height: 50px;
+        }
+    </style>
+    <div class="header">
+        <div class="container">
+            <div class="wrap">
+                <div class="logo">Logo</div>
+                <div class="menu">
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                        <li>Item 5</li>
+                        <li>Item 6</li>
+
+                    </ul>
+                </div>
+                <div class="contact">Liên hệ</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
